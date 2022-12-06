@@ -1,0 +1,17 @@
+  
+  let num=13;
+  let count="";
+    
+    for(let i=0;i>=num;i++){
+   
+   if((num%2==0)&&(num%i==0)){
+     count++
+   }
+   
+    }
+   if(count==1){
+       console.log("Yes")
+   }else{
+       console.log("No")
+   }
+   
