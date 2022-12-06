@@ -1,7 +1,8 @@
   let num=13;
-  let count="";
+  let count=0;
     
     for(let i=1;i<=num;i++){
+   
    
    if(num%i==0)
    {
@@ -10,7 +11,7 @@
    
     }
    if(count==2){
-       console.log("Yes")
+       console.log("It is Prime number")
    }else{
-       console.log("No")
+       console.log("Not a Prime number")
    }
